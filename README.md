@@ -72,7 +72,8 @@ Data Preprocessing : The aspect ratio of a squared picture is resized to have ab
  
 ## Result and Analysis : 
 In this study, we developed and evaluated five models for detecting COVID-19 based on lung CT scans. The models were trained and tested using a dataset containing images from three classes: COVID-19 positive, COVID-19 negative, and viral pneumonia cases.
-### 1. Basic CNN Architecture :  The initial model was a basic CNN architecture consisting of multiple convolutional and pooling layers, followed by fully connected layers. The model achieved an overall accuracy of 81.6%.
+### 1. Basic CNN Architecture:
+The initial model was a basic CNN architecture consisting of multiple convolutional and pooling layers, followed by fully connected layers. The model achieved an overall accuracy of 81.6%.
 
 <p align="center">
   <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/0d7890ee-b93a-43d9-b174-454cbc666d58">
@@ -86,7 +87,7 @@ The training accuracy and validation graph shows the model's accuracy on the tra
 
 The training and validation loss graph shows the value of the loss function (typically cross-entropy) during training on the training data. It represents how well the model minimizes its prediction errors and adjusts its parameters to improve performance. It also indicates how well the model generalizes to new data and helps identify whether it is overfitting or underfitting. Ideally, the training and validation loss decreases and converges, with a small gap between them. A decreasing loss indicates that the model is improving its performance and minimizing errors.
 
-### 2. MobileNetV2 :  
+### 2. MobileNetV2:  
 One of the models used was MobileNetV2, a pre-trained convolutional neural network architecture known for its efficiency and performance. The MobileNetV2 model was fine-tuned and trained on our dataset containing images from three classes. The model achieved an overall accuracy of 81.9%.
 
 <p align="center">
@@ -101,7 +102,7 @@ Comparing the MobileNetV2 model to the previous CNN architecture, we observed th
  
 We observed a decreasing trend in training and validation loss throughout the training process. This suggests that the model was effectively learning the patterns and features in the training data and successfully generalizing its knowledge to the validation data. The decreasing loss indicates that the model gradually converged towards an optimal solution, minimizing the discrepancy between predicted and actual outputs. A decreasing loss signifies that the model is learning and improving, while an increasing or stagnant loss could indicate issues such as overfitting or underfitting. Overall, the decreasing training and validation loss for the MobileNetV2 model indicate its effectiveness in learning from the data and making accurate predictions.
 
-### 3. DenseNet121 : 
+### 3. DenseNet121: 
 DenseNet121 is a deep convolutional neural network architecture that utilizes dense connections, enabling information flow across layers. We trained and tested the DenseNet121 model on our dataset of lung CT scans. The model achieved an overall accuracy of 62.8%.
 
 <p align="center">
@@ -116,7 +117,7 @@ The accuracy graph for the DenseNet121 model showed an increase in both training
  
 The loss graph for the DenseNet121 model displayed a steady decrease in both training and validation loss over the epochs. This reduction in loss signifies that the model was successfully minimizing the difference between its predicted outputs and the actual labels of the images. 
 
-### 4.VGG16 :
+### 4.VGG16:
 VGG16 is a popular convolutional neural network architecture known for its simplicity and effectiveness. We fine-tuned the pre-trained VGG16 model on our dataset and evaluated its performance. The VGG16 model achieved an overall accuracy of 66.3%
 
 <p align="center">
