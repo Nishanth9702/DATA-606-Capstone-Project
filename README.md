@@ -1,11 +1,11 @@
 # A Study of Detecting COVID-19 Severity Using Lung Ultrasonography
 
 
-  #Team C
+  # Team C
 
-  #Abdul Wahed
-  #Amar Sayani
-  #Bhargav Nishanth Katikey
+  # Abdul Wahed
+  # Amar Sayani
+  # Bhargav Nishanth Katikey
 
 
 
