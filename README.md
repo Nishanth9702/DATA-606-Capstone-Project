@@ -171,14 +171,14 @@ Several potential future directions can be explored to enhance the accuracy and 
 
 ## References
 
-[1] 	M. V. P. J. Sandeep Kumar Mathivanan, "Forecasting of the SARS-CoV-2 epidemic in India using SIR model, flatten curve and herd immunity," Journal of Ambient Intelligence and Humanized Computing, 2020. 
-[2] 	A. O. T. T. Sos Agaian, "Automatic COVID-19 lung infected region segmentation and measurement using CT-scans images," Elsevier - PMC COVID-19 Collection , 2020. 
-[3] 	S. K. M. Maheshwari V, "Social economic impact of COVID-19 outbreak in India," International Journal of Pervasive Computing and Communications, 2020. 
-[4] 	A. O. A. K. L. d. Sos Agaian b, "Automatic COVID-19 lung infected region segmentation and measurement using CT-scans images". 
-[5] 	D. A. T. M. A. Asaad, "COVID-19 Detection Using CNN Transfer Learning from x-Ray Images,," 2020. 
-[6] 	M. E. A. A. S. Saman Fouladi, "Efficient deep neural networks for classification of COVID-19 based on CT images: Virtualization via software defined radio," 2021. 
-[7] 	A. R. K. Ali Abbasian Ardakani, "Application of deep learning technique to manage COVID-19 in routine clinical practice using CT images: Results of 10 convolutional neural networks," 2020. 
-[8] 	Z. L. Gao Huang, "Densely Connected Convolutional Networks," 2018. 
+[1] 	M. V. P. J. Sandeep Kumar Mathivanan, "Forecasting of the SARS-CoV-2 epidemic in India using SIR model, flatten curve and herd immunity," Journal of Ambient Intelligence and Humanized Computing, 2020.<br>
+[2] 	A. O. T. T. Sos Agaian, "Automatic COVID-19 lung infected region segmentation and measurement using CT-scans images," Elsevier - PMC COVID-19 Collection , 2020. <br>
+[3] 	S. K. M. Maheshwari V, "Social economic impact of COVID-19 outbreak in India," International Journal of Pervasive Computing and Communications, 2020. <br>
+[4] 	A. O. A. K. L. d. Sos Agaian b, "Automatic COVID-19 lung infected region segmentation and measurement using CT-scans images". <br>
+[5] 	D. A. T. M. A. Asaad, "COVID-19 Detection Using CNN Transfer Learning from x-Ray Images,," 2020. <br>
+[6] 	M. E. A. A. S. Saman Fouladi, "Efficient deep neural networks for classification of COVID-19 based on CT images: Virtualization via software defined radio," 2021. <br>
+[7] 	A. R. K. Ali Abbasian Ardakani, "Application of deep learning technique to manage COVID-19 in routine clinical practice using CT images: Results of 10 convolutional neural networks," 2020. <br>
+[8] 	Z. L. Gao Huang, "Densely Connected Convolutional Networks," 2018. <br>
 
 
 
