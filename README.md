@@ -149,7 +149,7 @@ The loss graph for the NASNet model demonstrated a decreasing trend for both the
 ## Parameters used for training the models : 
 
  <p align="center">
-  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/9a31c64c-0e5b-459f-8bde-c1c9d8593314">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/b36415cd-2230-46ae-b95d-022326d592a1">
 </p>
 
 
