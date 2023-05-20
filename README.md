@@ -1,7 +1,7 @@
 # A Study of Detecting COVID-19 Severity Using Lung Ultrasonography
 
 
-  # Team - Abdul Wahed, Amar Sayani, Bhargav Nishanth Katikey
+  ### Team - Abdul Wahed, Amar Sayani, Bhargav Nishanth Katikey
 
 
 
