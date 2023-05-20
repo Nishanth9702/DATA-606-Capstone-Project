@@ -90,13 +90,13 @@ The training and validation loss graph shows the value of the loss function (typ
 One of the models used was MobileNetV2, a pre-trained convolutional neural network architecture known for its efficiency and performance. The MobileNetV2 model was fine-tuned and trained on our dataset containing images from three classes. The model achieved an overall accuracy of 81.9%.
 
 <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/ef9c1f22-e271-4828-8d89-7d95c7316d91)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/ef9c1f22-e271-4828-8d89-7d95c7316d91">
 </p>
  
 Comparing the MobileNetV2 model to the previous CNN architecture, we observed that MobileNetV2 outperformed in terms of overall accuracy. The model demonstrated better discrimination between the COVID-19 positive, negative, and viral pneumonia cases resulting in higher accuracy. This highlights the effectiveness of MobileNetV2 in capturing relevant features for COVID-19 detection in lung CT scans.
 
 <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/9ac35140-ee36-46a7-98bf-32518975883b)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/9ac35140-ee36-46a7-98bf-32518975883b">
 </p>
  
 We observed a decreasing trend in training and validation loss throughout the training process. This suggests that the model was effectively learning the patterns and features in the training data and successfully generalizing its knowledge to the validation data. The decreasing loss indicates that the model gradually converged towards an optimal solution, minimizing the discrepancy between predicted and actual outputs. A decreasing loss signifies that the model is learning and improving, while an increasing or stagnant loss could indicate issues such as overfitting or underfitting. Overall, the decreasing training and validation loss for the MobileNetV2 model indicate its effectiveness in learning from the data and making accurate predictions.
@@ -105,13 +105,13 @@ We observed a decreasing trend in training and validation loss throughout the tr
 DenseNet121 is a deep convolutional neural network architecture that utilizes dense connections, enabling information flow across layers. We trained and tested the DenseNet121 model on our dataset of lung CT scans. The model achieved an overall accuracy of 62.8%.
 
 <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/5dcf530b-e3fc-4e4a-aaec-498b01afc552)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/5dcf530b-e3fc-4e4a-aaec-498b01afc552">
 </p>
  
 The accuracy graph for the DenseNet121 model showed an increase in both training and validation accuracy over the epochs. This upward trend indicates that the model was effectively learning from the training data and improving its ability to classify lung CT scans.
 
 <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/2b93bb05-4dfe-4680-8f01-880db6bd3030)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/2b93bb05-4dfe-4680-8f01-880db6bd3030">
 </p>
  
 The loss graph for the DenseNet121 model displayed a steady decrease in both training and validation loss over the epochs. This reduction in loss signifies that the model was successfully minimizing the difference between its predicted outputs and the actual labels of the images. 
@@ -120,13 +120,13 @@ The loss graph for the DenseNet121 model displayed a steady decrease in both tra
 VGG16 is a popular convolutional neural network architecture known for its simplicity and effectiveness. We fine-tuned the pre-trained VGG16 model on our dataset and evaluated its performance. The VGG16 model achieved an overall accuracy of 66.3%
 
 <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/116d7e32-069e-4097-87ce-66d6d2c92f98)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/116d7e32-069e-4097-87ce-66d6d2c92f98">
 </p>
  
 The accuracy graph for the VGG16 model demonstrated an increasing trend for both the training and validation datasets. As the number of epochs increased, the model's accuracy on the training data improved, indicating its ability to classify lung CT scans correctly. The validation accuracy followed a similar pattern but might exhibit slight fluctuations. The general upward trend suggests that the model was learning and generalizing well to unseen data.
 
 <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/44a90838-f067-463e-b836-65bc71a8cb20)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/44a90838-f067-463e-b836-65bc71a8cb20">
 </p>
  
 The loss graph for the VGG16 model showed a decreasing trend for both the training and validation datasets. As the model underwent training over multiple epochs, the loss steadily decreased, indicating that the model was minimizing the difference between its predicted outputs and the true labels of the images.
@@ -135,13 +135,13 @@ The loss graph for the VGG16 model showed a decreasing trend for both the traini
 NASNet is a neural architecture search-based model that automatically discovers the optimal architecture for a given task. We trained and evaluated the NASNet model on our dataset of lung CT scans. The model achieved an overall accuracy of 81.9%. Comparing the performances of the five models, we observed that the NASNet and MobileNetV2 models achieved the highest overall accuracy of 81.9%.
  
  <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/0c4d48b0-d7fe-4e9b-9fe9-294dff0f4472)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/0c4d48b0-d7fe-4e9b-9fe9-294dff0f4472">
 </p>
 
 The accuracy graph for the NASNet model exhibited a steady increase in accuracy for both the training and validation datasets as the number of epochs increased. This indicates that the model effectively learned and improved its ability to classify lung CT scans into the appropriate classes. The accuracy of the training data increased over time, showing that the model could learn and memorize the training samples. Similarly, the accuracy of the validation data increased, demonstrating the model's ability to generalize well to unseen data.
  
  <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/146f7ad1-4d4e-4261-b302-40eded9ca02b)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/146f7ad1-4d4e-4261-b302-40eded9ca02b">
 </p>
 
 The loss graph for the NASNet model demonstrated a decreasing trend for both the training and validation datasets. As the model underwent training, the loss gradually decreased, indicating that the model minimized the discrepancy between its predicted outputs and the true labels of the images. The decreasing loss suggests that the model learned the relevant patterns and features necessary for COVID-19 detection in lung CT scans. The accuracy and loss graphs for the NASNet model provide valuable insights into the model's learning progress and performance. The increasing accuracy and decreasing loss over the epochs indicate that the model was successfully learning from the training data and generalizing it to the validation data.
@@ -149,7 +149,7 @@ The loss graph for the NASNet model demonstrated a decreasing trend for both the
 ## Parameters used for training the models : 
 
  <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/9a31c64c-0e5b-459f-8bde-c1c9d8593314)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/9a31c64c-0e5b-459f-8bde-c1c9d8593314">
 </p>
 
 
@@ -157,7 +157,7 @@ The loss graph for the NASNet model demonstrated a decreasing trend for both the
 This paper uncovers the prevailing and efficacious deep learning architectures used to identify COVID-19 in suspected patients by analyzing CT scan images. By exploring key concepts, these deep learning algorithms offer effective results in detecting the presence of COVID-19. The study utilizes the most notable models: MobileNet, DenseNet, VGG16, and NASNet. However, specific measures need to be taken to enhance the accuracy of the suggested CNN models. These include incorporating a larger dataset, employing additional preprocessing techniques, and leveraging pre-trained models in transfer learning.
  
   <p align="center">
-  <img src="![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/4fb8cbe7-9922-4ead-b496-4241777c6a72)">
+  <img src="https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/4fb8cbe7-9922-4ead-b496-4241777c6a72">
 </p>
  
 Among all the models, MobileNet and NASNet achieve the highest accuracy at 81.9%. Thus, the proposed system identifies MobileNet and NASNet as the optimal models for classifying CT scan images into COVID and non-COVID categories. However, a limitation of the study is its failure to identify COVID-affected lung areas. Further enhancements are necessary, including a larger dataset, additional preprocessing techniques, and the application of pre-trained models in transfer learning to improve the accuracy of the proposed CNN models. Additionally, future research may explore using the Yolo architecture to achieve even better accuracy.
