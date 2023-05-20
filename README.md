@@ -23,7 +23,7 @@ Classification: The statistical evaluation of the data is done using deep learni
 MobileNet employs depthwise separable convolutions. It significantly lowers the number of parameters compared to a network with standard convolutions of identical depth in the nets. Thus, portable deep neural networks are developed. In order to build MobileNets, depthwise separable convolution layers are used. There are two convolution layers for every depth-wise removable layer: pointwise and depth-wise layers. A standard MobileNet has 4.2 million parameters; this number can be decreased by adjusting the width multiplier hyperparameter. The input image size is 224 × 224 pixels [7]. The model starts with an input layer that takes images of shapes (224, 224, 3). To extract low-level features, a number of basic convolutional layers are applied to the input data. These layers consist of batch normalization, ReLU activation, and a 3x3 convolutional layer with a stride of 2. There are 17 Bottleneck blocks in total in the MobileNet design. An expansion block, a depthwise block, and a projection block comprise each Bottleneck block. These blocks gradually increase the complexity of the characteristics retrieved from the earlier layers. The model concludes with a dense layer with softmax activation to get the final classification probabilities and global average pooling to minimize the spatial dimensions of the data. 
 
 ![image](https://github.com/Nishanth9702/DATA-606-Capstone-Project/assets/99062389/85d3aefd-23e8-488b-a5a2-81cb082309c6)
-<h1 align="center">Figure 1. MobileNet Architecture</h1>
+<h1 align="center"size=5>Figure 1. MobileNet Architecture</h1>
 
 
 ### DenseNet121 :
